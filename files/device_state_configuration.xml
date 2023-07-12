@@ -1,0 +1,18 @@
+<device-state-config>
+  <device-state>
+    <identifier>0</identifier>
+    <name>CLOSED</name>
+  </device-state>
+  <device-state>
+    <identifier>1</identifier>
+    <name>HALF_OPENED</name>
+  </device-state>
+  <device-state>
+    <identifier>2</identifier>
+    <name>OPENED</name>
+  </device-state>
+  <device-state>
+    <identifier>3</identifier>
+    <name>FOLDED</name>
+  </device-state>
+</device-state-config>

@@ -14,3 +14,8 @@ android.hardware.bluetooth.audio.IBluetoothAudioProviderFactory/sysbta    u:obje
 
 # QcRilAm
 me.phh.qcrilam                                                            u:object_r:qcrilam_service:s0
+
+# Surface DisplayTopology HIDL
+vendor.surface.displaytopology::IDisplayTopology                          u:object_r:hal_displaytopology_hwservice:s0
+
+com.thain.duo                                                             u:object_r:duo_service:s0

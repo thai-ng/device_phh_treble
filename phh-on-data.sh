@@ -29,3 +29,8 @@ if [ "$vndk" = 28 ];then
     mount $minijailSrc64 /vendor/lib64/libminijail.so
     mount $minijailSrc /vendor/lib/libminijail.so
 fi
+
+if [ "$(getprop  persist.sys.phh.duo.disable_hinge)" -eq 1 ]; then
+    setprop vendor.display.bezel_size 0
+    setprop vendor.display.default_bezel_size 0
+fi
