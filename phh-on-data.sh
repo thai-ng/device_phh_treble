@@ -33,4 +33,5 @@ fi
 if [ "$(getprop  persist.sys.phh.duo.disable_hinge)" -eq 1 ]; then
     setprop vendor.display.bezel_size 0
     setprop vendor.display.default_bezel_size 0
+    setprop vendor.display.hinge_width_pixels 0
 fi

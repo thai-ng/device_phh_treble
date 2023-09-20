@@ -282,6 +282,8 @@ PRODUCT_PACKAGES += \
 	SurfaceDuo2NoHingeAndroidOverlay \
 	SurfaceDuo2NoHingeWMShellOverlay \
 	SurfaceDuo2PostureProcessorOverlay \
-	SurfaceDuoSettingsOverlay
+	SurfaceDuoSettingsOverlay \
+	Launcher3 \
+	Launcher3QuickStep
 
 $(call inherit-product-if-exists, vendor/surface/prebuilts/bootanimation/bootanimation.mk)
