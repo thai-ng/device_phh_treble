@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <unavailable-feature name="com.microsoft.device.display.displaymask" />
+    <oem-permissions>
+        <permission name="surface.permission.USE_OEM_PRIVATE_SENSORS" />
+    </oem-permissions>
+</permissions>

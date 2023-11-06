@@ -267,3 +267,27 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.settings.large_screen_opt.enabled=true
 
 PRODUCT_EXTRA_VNDK_VERSIONS += 28 29
+
+PRODUCT_COPY_FILES += \
+	device/phh/treble/files/com.microsoft.surface.duo_v1.xml:system/etc/permissions/com.microsoft.surface.duo_v1.xml
+
+PRODUCT_COPY_FILES += \
+	device/phh/treble/files/device_state_configuration.xml:system/etc/devicestate/device_state_configuration.xml
+
+PRODUCT_PACKAGES += \
+	PostureProcessor \
+	SurfaceDuoGeneralOverlay \
+	SurfaceDuo1DisplayFeaturesWMShellOverlay \
+	SurfaceDuo1NoHingeAndroidOverlay \
+	SurfaceDuo1NoHingeWMShellOverlay \
+	SurfaceDuo1DisplayFeaturesOverlay \
+	SurfaceDuo2DisplayFeaturesOverlay \
+	SurfaceDuo2DisplayFeaturesWMShellOverlay \
+	SurfaceDuo2NoHingeAndroidOverlay \
+	SurfaceDuo2NoHingeWMShellOverlay \
+	SurfaceDuo2PostureProcessorOverlay \
+	SurfaceDuoSettingsOverlay \
+	SurfaceDuoSettingsIconsOverlay \
+	SurfaceDuoAppHintingOverlay
+
+$(call inherit-product-if-exists, vendor/surface/prebuilts/bootanimation/bootanimation.mk)
