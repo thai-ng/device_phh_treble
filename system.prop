@@ -49,3 +49,11 @@ bluetooth.profile.sap.server.enabled?=true
 
 # Samsung vendors default to a Samsung-specific gadget for MTP. Set this to use AOSP's functionfs MTP
 vendor.usb.use_ffs_mtp=1
+
+# Override media volume steps
+ro.config.media_vol_steps=25
+ro.config.media_vol_default=8
+
+# surface duo stuff
+persist.sys.thain.duo.enable_settings_icons=1
+persist.sys.thain.duo.app_hinting=0
